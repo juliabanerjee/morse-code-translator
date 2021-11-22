@@ -16,40 +16,40 @@ export const translate = (message) => {
   else if (message == "h")
   return "....";
   else if (message == "i")
-  return "";
+  return "..";
   else if (message == "j")
-  return "";
+  return ".---";
   else if (message == "k")
-  return "";
+  return "-.-";
   else if (message == "l")
-  return "";
+  return ".-..";
   else if (message == "m")
-  return "";
+  return "--";
   else if (message == "n")
-  return "";
+  return "-.";
   else if (message == "o")
-  return "";
+  return "---";
   else if (message == "p")
-  return "";
+  return ".--.";
   else if (message == "q")
-  return "";
+  return "--.-";
   else if (message == "r")
-  return "";
+  return ".-.";
   else if (message == "s")
-  return "";
+  return "...";
   else if (message == "t")
-  return "";
+  return "-";
   else if (message == "u")
-  return "";
+  return "..-";
   else if (message == "v")
-  return "";
+  return "...-";
   else if (message == "w")
-  return "";
+  return ".--";
   else if (message == "x")
-  return "";
+  return "-..-";
   else if (message == "y")
-  return "";
+  return "-.--";
   else (message == "z")
-  return "";
+  return "--..";
 
 } 
