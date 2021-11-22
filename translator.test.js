@@ -26,9 +26,9 @@ describe("should translate letters of the alphabet to morse code", ()=>{
     expect(result).toBe("-..");
   })
 
-  it("translate e to .-", ()=> {
-    const result = translate("a");
-    expect(result).toBe(".-");
+  it("translate e to .", ()=> {
+    const result = translate("e");
+    expect(result).toBe(".");
   })
 
   it("translate f to .-", ()=> {
