@@ -1,6 +1,7 @@
 // write the tests for each letter of the alphabet in morse code
 
 import { translate} from './translator.js';
+import { translateWords } from './translator.js';
 import {describe, it, expect} from '@jest/globals';
 
 
@@ -126,4 +127,12 @@ describe("should translate letters of the alphabet to morse code", ()=>{
 
 
 
+})
+
+
+describe("should translate words to morse code", ()=>{
+it ("translate hi", ()=> {
+  const result = translateWords("hi");
+  expect(result).toBe(".... ..");
+})
 })

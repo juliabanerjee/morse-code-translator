@@ -53,3 +53,20 @@ export const translate = (message) => {
   return "--..";
 
 } 
+//
+export const translateWords = (word) => { 
+    const wordArr = [...word]
+    // iterate through array 
+    //get translation as you iterate through array
+    // find  a way of storing them
+    const translationArr = []
+    // get the array back to one big string
+    for(let i = 0; i < wordArr.length; i++) {
+    translationArr.push(translate(wordArr[i]))
+    
+  }
+  const translatedWord = translationArr.join(" ")
+  return translatedWord
+  
+  
+}
