@@ -1,0 +1,20 @@
+body #section1 {
+  display: flex;
+  justify-content: center;
+}
+body #section1 header {
+  font-family: "Special Elite", cursive;
+  font-size: 30px;
+}
+body #section2 {
+  display: inline-block;
+  justify-content: center;
+}
+body #section2 #textbox {
+  border: 2px solid black;
+}
+body #section2 #translationDisplay {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+}

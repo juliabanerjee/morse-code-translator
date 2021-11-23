@@ -1,1 +1,26 @@
 // mobile version
+
+body{
+#section1{
+  display: flex;
+  justify-content: center;
+  header{
+    font-family: 'Special Elite', cursive; 
+    font-size: 30px;
+  }
+}
+#section2{
+  display: inline-block;
+  justify-content: center;
+
+  #textbox{
+    border: 2px solid black;
+  }
+  #translationDisplay{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+  }
+
+}
+}
